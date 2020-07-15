@@ -21,6 +21,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,tsx}": [
+      "tslint -c tslint.json --fix --format verbose",
+      "prettier --write"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -37,6 +48,8 @@
     ]
   },
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.3.0",
