@@ -1,0 +1,22 @@
+.app {
+    /* mobile first testing */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 20px;
+}
