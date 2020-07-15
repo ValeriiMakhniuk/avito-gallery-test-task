@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    border-top: solid #cccccc 1px;
+}
+
+.text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #cccccc;
+}
