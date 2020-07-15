@@ -1,0 +1,12 @@
+.list {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.item {
+    margin-bottom: 30px;
+}
